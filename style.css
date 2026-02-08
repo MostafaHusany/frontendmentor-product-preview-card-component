@@ -19,8 +19,8 @@ body {
 }
 
 .card {
-    width: 750px;
-    height: 550px;
+    width: 600px;
+    height: 430px;
 
     border-radius: 9px;
     overflow: hidden;
@@ -50,7 +50,7 @@ body {
 
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
 
 }
 
@@ -60,7 +60,7 @@ body {
 }
 
 .card-body h1 {
-    font-size: 42px;
+    font-size: 35;
     line-height: 1;
 
     color: hsl(212, 21%, 14%);
@@ -68,7 +68,7 @@ body {
 }
 
 .card-body .product-description {
-    font-size: 18px;
+    font-size: 14px;
     line-height: 1.5;
     font-weight: 400;
 }
@@ -81,7 +81,7 @@ body {
 }
 
 .card-body .price-container p:nth-of-type(1) {
-    font-size: 40px;
+    font-size: 33px;
     font-weight: 700;
     font-family: 'Fraunces', sans-serif;
 
@@ -90,14 +90,14 @@ body {
 
 .card-body .price-container p:nth-of-type(2) {
     text-decoration: line-through;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
 }
 
 .card-body .add-cart-btn {
     padding: 20px;
 
-    font-size: 16px;
+    font-size: 14px;
 
     border: none;
     border-radius: 8px;
